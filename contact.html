@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us - MEDSY Pharmacy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <div class="logo"><i class="fa-solid fa-notes-medical"></i> <span>MEDSY</span></div>
+            <div class="search-box">
+                <input type="text" placeholder="Search catalog...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-contact">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div><span>Call Us 24/7</span><strong>+1 855-766-5885</strong></div>
+            </div>
+            <div class="header-icons">
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="cart-icon"><i class="fa-solid fa-basket-shopping"></i><span class="badge">3</span></a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="bestsellers.html">Best sellers</a></li>
+                <li><a href="contact.html" class="active">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-title">
+            <h1>Contact Us & Upload Prescription</h1>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-form-card">
+                <h3>Send Message / Prescription</h3>
+                <form onsubmit="event.preventDefault(); alert('Inquiry sent!');">
+                    <div class="form-group"><label>Full Name</label><input type="text" required></div>
+                    <div class="form-group"><label>Email Address</label><input type="email" required></div>
+                    <div class="form-group"><label>Message</label><textarea rows="4" required></textarea></div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo white"><i class="fa-solid fa-notes-medical"></i> <span>MEDSY</span></div>
+                <p>Your trusted online pharmacy committed to accessible healthcare supplies worldwide.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright@Sanjidajunakpriya</p>
+        </div>
+    </footer>
+</body>
+</html>

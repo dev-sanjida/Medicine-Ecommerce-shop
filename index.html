@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDSY - Online Pharmacy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header & Search Bar -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="logo">
+                <i class="fa-solid fa-notes-medical"></i> <span>MEDSY</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search your medicine here...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-contact">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                    <span>Call Us 24/7</span>
+                    <strong>+1 855-766-5885</strong>
+                </div>
+            </div>
+            <div class="header-icons">
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="cart-icon"><i class="fa-solid fa-basket-shopping"></i><span class="badge">3</span></a>
+            </div>
+        </div>
+        <!-- 5-Page Main Navigation Header -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="bestsellers.html">Best sellers</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Promo Banners Grid matching image layout -->
+        <section class="promo-grid">
+            <div class="promo-card orange">
+                <div class="promo-text">
+                    <h3>Fast Delivery</h3>
+                    <p>Express 2-hour medical delivery</p>
+                    <a href="shop.html" class="btn-sm">Shop Now</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=300&q=80" alt="Fast Delivery">
+            </div>
+            <div class="promo-card green">
+                <div class="promo-text">
+                    <h3>Coupon Savings</h3>
+                    <p>Up to 30% off on first order</p>
+                    <a href="shop.html" class="btn-sm">View Products</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=300&q=80" alt="Coupon Savings">
+            </div>
+            <div class="promo-card blue">
+                <div class="promo-text">
+                    <h3>Custom Order</h3>
+                    <p>Upload doctor's prescription</p>
+                    <a href="contact.html" class="btn-sm">Upload Now</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=300&q=80" alt="Prescription">
+            </div>
+            <div class="promo-card pink">
+                <div class="promo-text">
+                    <h3>Female Care</h3>
+                    <p>Essential healthcare items</p>
+                    <a href="shop.html" class="btn-sm">View Products</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=300&q=80" alt="Female Care">
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <h2>CATEGORIES</h2>
+            <div class="category-grid">
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=120&q=80" alt="Household">
+                    <span>Household</span>
+                </div>
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=120&q=80" alt="Personal Care">
+                    <span>Personal Care</span>
+                </div>
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?auto=format&fit=crop&w=120&q=80" alt="Pregnancy">
+                    <span>Pregnancy</span>
+                </div>
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=120&q=80" alt="First Aid">
+                    <span>Medicine & First Aid</span>
+                </div>
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=120&q=80" alt="Health & Wellness">
+                    <span>Health & Wellness</span>
+                </div>
+                <div class="cat-item">
+                    <img src="https://images.unsplash.com/photo-1573883431205-98b5f10aaedb?auto=format&fit=crop&w=120&q=80" alt="Feminine Hygiene">
+                    <span>Feminine Hygiene</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Cards Grid -->
+        <section class="products-section">
+            <h2>PRODUCT CARDS</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80" alt="Fibre Supplement">
+                    <h4>Truplus Fibre Food Supplement</h4>
+                    <p class="desc">Dietary Supplement</p>
+                    <div class="price-row">
+                        <span class="price">$2.50</span>
+                        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&w=400&q=80" alt="Sleep Spray">
+                    <h4>I'm Like 100% Tired Sleep Spray</h4>
+                    <p class="desc">Herbal Spray</p>
+                    <div class="price-row">
+                        <span class="price">$2.00</span>
+                        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=400&q=80" alt="Tone Capsules">
+                    <h4>The Tone Capsules</h4>
+                    <p class="desc">High Potency Vitamin</p>
+                    <div class="price-row">
+                        <span class="price">$25.00</span>
+                        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&w=400&q=80" alt="Syringe">
+                    <h4>Medical Grade Syringe</h4>
+                    <p class="desc">Single Sterile Pack</p>
+                    <div class="price-row">
+                        <span class="price">$0.99</span>
+                        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Delivery Banner -->
+        <section class="delivery-banner">
+            <div class="banner-content">
+                <h2>Fast, Free Shipping, Contactless Delivery.</h2>
+                <p>Safe and hygienic delivery straight to your doorstep.</p>
+                <a href="shop.html" class="btn-primary">Shop Now</a>
+            </div>
+            <div class="banner-img">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Contactless Delivery">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Part -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="logo white"><i class="fa-solid fa-notes-medical"></i> <span>MEDSY</span></div>
+                <p>Your trusted online pharmacy committed to accessible healthcare supplies worldwide.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="bestsellers.html">Best sellers</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p><i class="fa-solid fa-envelope"></i> support@medsy.pharmacy</p>
+                <p><i class="fa-solid fa-phone"></i> +1 855-766-5885</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright@Sanjidajunakpriya</p>
+        </div>
+    </footer>
+</body>
+</html>
